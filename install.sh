@@ -52,12 +52,12 @@ AURORA_HOME="$HOME/aurora"
 AURORA_HOME_BACKUP="$HOME/aurora_backup"
 AURORA_DOCKER_YML=${AURORA_HOME}/docker-compose.yml
 AURORA_DOCKER_YML_TEMP=${AURORA_HOME}/docker-compose.yml.tmp
-[[ -z $FASTGIT ]] && GITHUB_RAW_URL="raw.githubusercontent.com" || GITHUB_RAW_URL="raw.fastgit.org"
-AURORA_GITHUB="Aurora-Admin-Panel"
-AURORA_YML_URL="https://${GITHUB_RAW_URL}/${AURORA_GITHUB}/deploy/main/docker-compose.yml"
-AURORA_DEV_YML_URL="https://${GITHUB_RAW_URL}/${AURORA_GITHUB}/deploy/main/docker-compose-dev.yml"
+[[ -z $FASTGIT ]] && GITHUB_RAW_URL="raw.githubusercontent.com" || GITHUB_RAW_URL="gh.888443.xyz/raw.githubusercontent.com"
+AURORA_GITHUB="wangliubi"
+AURORA_YML_URL="https://${GITHUB_RAW_URL}/${AURORA_GITHUB}/aurora-admin-panel/main/docker-compose.yml"
+AURORA_DEV_YML_URL="https://${GITHUB_RAW_URL}/${AURORA_GITHUB}/aurora-admin-panel/main/docker-compose-dev.yml"
 DOCKER_INSTALL_URL="https://get.docker.com"
-[[ -z $FASTGIT ]] && GITHUB_URL="github.com" || GITHUB_URL="download.fastgit.org"
+[[ -z $FASTGIT ]] && GITHUB_URL="github.com" || GITHUB_URL="gh.888443.xyz/github.com"
 DOCKER_COMPOSE_URL="https://${GITHUB_URL}/docker/compose/releases/download/v2.2.3/docker-compose-$(uname -s)-$(uname -m)"
 
 AURORA_DEF_IP=""
